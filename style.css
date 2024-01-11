@@ -1,0 +1,65 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: darkgoldenrod;
+}
+
+/* Navigation */
+header {
+    background-color: #f4f4f4;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Card */
+.card {
+    background-image: url(/assets/images/illustration-article.svg);
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    filter: brightness(50%) sepia(100%) hue-rotate(20deg);
+}
+.boton {
+    background-color: darkgoldenrod;
+}
+.card h1 {
+    font-size: 4rem;
+}
+
+.card p {
+    font-size: 1.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
